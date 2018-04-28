@@ -12,7 +12,7 @@
     "botbuilder": "^3.14.0",
     "events": "^2.0.0",
     "request": "^2.85.0",
-    "restify": "^6.3.4",
+    "restify": "^6.4.0",
     "utf8": "^3.0.0"
   }
 }
