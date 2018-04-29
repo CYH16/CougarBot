@@ -93,8 +93,7 @@ bot.dialog('get_set', [
     },
     function (session, results) {
 		if (results.response == "OK") {
-			var url_ = 'http://127.0.0.1:8000/api/questions/raw_sql_query/?';
-			// var url_ = "http://beta.cougarbot.cc/api/questions/raw_sql_query/?";
+			var url_ = "http://beta.cougarbot.cc/api/questions/raw_sql_query/?";
 			
 			session.privateConversationData.Filter_detail_code = session.privateConversationData.Filter_detail_code.filter(function(e) { return e !== "全部科目" });
 			for (var i = 0; i < session.privateConversationData.Filter_detail_code.length; i++) {
